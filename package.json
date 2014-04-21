@@ -1,28 +1,28 @@
 {
-  "name": "cascade-stream",
+  "name": "from2-array",
   "version": "0.0.1",
-  "description": "A duplex stream that can lazily create child streams from a chunk and merge all outputs into one",
+  "description": "Create a from2 stream based on an array of source values",
   "main": "index.js",
   "scripts": {
     "test": "set -e; for t in test/*.js; do node $t; done"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/binocarlos/cascade-stream.git"
+    "url": "https://github.com/binocarlos/from2-array.git"
   },
   "keywords": [
     "stream",
-    "cascade",
-    "multiple",
-    "duplex",
-    "merge"
+    "streams2",
+    "from",
+    "source",
+    "readable"
   ],
   "author": "Kai Davenport",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/binocarlos/cascade-stream/issues"
+    "url": "https://github.com/binocarlos/from2-array/issues"
   },
-  "homepage": "https://github.com/binocarlos/cascade-stream",
+  "homepage": "https://github.com/binocarlos/from2-array",
   "devDependencies": {
     "tape": "^2.12.3",
     "through2": "^0.4.1"
