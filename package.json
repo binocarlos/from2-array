@@ -1,0 +1,33 @@
+{
+  "name": "cascade-stream",
+  "version": "0.0.0",
+  "description": "A duplex stream that can lazily create child streams from a chunk and merge all outputs into one",
+  "main": "index.js",
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/binocarlos/cascade-stream.git"
+  },
+  "keywords": [
+    "stream",
+    "cascade",
+    "multiple",
+    "duplex",
+    "merge"
+  ],
+  "author": "Kai Davenport",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/binocarlos/cascade-stream/issues"
+  },
+  "homepage": "https://github.com/binocarlos/cascade-stream",
+  "devDependencies": {
+    "tape": "^2.12.3",
+    "through2": "^0.4.1"
+  },
+  "dependencies": {
+    "from2": "^0.0.0"
+  }
+}
