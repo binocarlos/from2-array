@@ -1,6 +1,6 @@
 {
   "name": "cascade-stream",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A duplex stream that can lazily create child streams from a chunk and merge all outputs into one",
   "main": "index.js",
   "scripts": {
