@@ -28,6 +28,6 @@
     "through2": "^0.4.1"
   },
   "dependencies": {
-    "from2": "^0.0.0"
+    "from2": "^1.2.0"
   }
 }
