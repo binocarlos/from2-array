@@ -1,6 +1,6 @@
 {
   "name": "from2-array",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Create a from2 stream based on an array of source values",
   "main": "index.js",
   "scripts": {
