@@ -7,7 +7,7 @@ var factory = module.exports = function(opts, arr){
 	}
 	var reduce = [].concat(arr)
 	return from(opts, function(size, cb){
-		if(reduce.length<=0) return cb()
+		if(reduce.length<=0) return cb(null, null)
 		cb(null, reduce.shift())
 	})	
 }
